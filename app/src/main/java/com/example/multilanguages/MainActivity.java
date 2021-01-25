@@ -3,6 +3,7 @@ package com.example.multilanguages;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.annotation.SuppressLint;
+import android.content.Intent;
 import android.content.res.Configuration;
 import android.content.res.Resources;
 import android.os.Bundle;
@@ -20,6 +21,8 @@ public class MainActivity extends AppCompatActivity {
 
   TextView output;
   Button button;
+  TextView source;
+
 
 
     @Override
@@ -27,12 +30,23 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        output = (TextView) this.findViewById(R.id.output);
+        output = this.findViewById(R.id.output);
 
         button = this.findViewById(R.id.button);
-        registerForContextMenu(button);
+
+        source = this.findViewById(R.id.source);
+        source.setOnClickListener(v ->openWebViewPage());
+
 
     }
+
+    public void openWebViewPage() {
+        Intent intent= new Intent(this, MainActivity2.class);
+        startActivity(intent);
+
+
+    }
+
 
 
 
@@ -94,6 +108,7 @@ public class MainActivity extends AppCompatActivity {
             default: return super.onOptionsItemSelected(item);
         }
     }
+
 
 
 
