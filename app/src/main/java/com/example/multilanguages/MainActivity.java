@@ -33,6 +33,7 @@ public class MainActivity extends AppCompatActivity {
         output = this.findViewById(R.id.output);
 
         button = this.findViewById(R.id.button);
+        registerForContextMenu(button);
 
         source = this.findViewById(R.id.source);
         source.setOnClickListener(v ->openWebViewPage());
@@ -46,9 +47,6 @@ public class MainActivity extends AppCompatActivity {
 
 
     }
-
-
-
 
 
     //create the menu
