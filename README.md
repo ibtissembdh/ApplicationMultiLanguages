@@ -1,16 +1,16 @@
-## Application Multi Languages-
+## Application Multi Languages
      
- *__Home page __.
+ *__Home page__.
 
       ![home page](https://github.com/ibtissembdh/ApplicationMultiLanguages/blob/main/images/1.png)
      
- *__ menu to change the language__.
+ *__Menu to change the language__.
  
    you can change the langues of this application from this menu from english to arabic or frensh, without changing the languages of your phone.
    
       ![home page](https://github.com/ibtissembdh/ApplicationMultiLanguages/blob/main/images/2.png)
        
-  *__ menu to change the pharagraph style__
+  *__Menu to change the pharagraph style__.
  
      ![home page](https://github.com/ibtissembdh/ApplicationMultiLanguages/blob/main/images/3.png)
        
