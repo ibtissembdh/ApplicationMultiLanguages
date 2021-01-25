@@ -1,2 +1,4 @@
-# ApplicationMultiLanguages-
-Application Multi Languages, you can  change the style and the language  of  this application localy.
+## Application Multi Languages-
+     
+1. __Home page __ :
+![home page]();
