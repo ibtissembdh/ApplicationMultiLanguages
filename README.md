@@ -2,7 +2,7 @@
      
  *__Home page __ 
 
-       ![home page](https://github.com/ibtissembdh/ApplicationMultiLanguages/blob/main/images/1.png)
+![home page](https://github.com/ibtissembdh/ApplicationMultiLanguages/blob/main/images/1.png)
      
  *__ menu to change the language__
  
